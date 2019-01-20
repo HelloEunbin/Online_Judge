@@ -60,5 +60,8 @@
     <ClCompile Include="4948베르트랑공준.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9020골드바흐의추측.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
