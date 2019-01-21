@@ -63,5 +63,8 @@
     <ClCompile Include="9020골드바흐의추측.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10866덱.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
