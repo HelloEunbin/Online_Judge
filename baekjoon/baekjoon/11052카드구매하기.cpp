@@ -18,7 +18,7 @@ int main() {
 				max = card[j] + card[i - j];
 		}
 		card[i] = max;
-	}
+	}aa
 	cout << card[N];
 
 	return 0;
