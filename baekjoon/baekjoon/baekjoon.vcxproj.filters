@@ -69,13 +69,13 @@
     <ClCompile Include="2493탑.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4673셀프넘버%28미완%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="11052카드구매하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="16478원의분할.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4673셀프넘버.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
