@@ -87,5 +87,8 @@
     <ClCompile Include="2920음계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10039평균점수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
