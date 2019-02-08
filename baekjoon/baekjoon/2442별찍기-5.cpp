@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int num;
+	cin >> num;
+	for (int i = num; i > 0; i--) { //ÃÑ 5¹ø µ¹¸®±â
+		for (int j = i-1; j > 0; j--) { //ºóÄ­Àº 4,3,2,1¼ø
+			cout << " ";
+		}
+		for (int k = 2 * i - 1; k<=2 * num - 1; k++) { //*Àº 1,3,5,7,9¼ø
+			cout << "*";
+		}
+		cout << "\n";
+	}
+
+	return 0;
+}
