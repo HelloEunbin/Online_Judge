@@ -102,5 +102,8 @@
     <ClCompile Include="2443별찍기-6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2444별찍기-7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
