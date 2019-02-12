@@ -138,5 +138,8 @@
     <ClCompile Include="1316그룹단어체커.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2908상수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
