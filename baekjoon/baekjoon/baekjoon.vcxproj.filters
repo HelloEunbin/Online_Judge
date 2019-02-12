@@ -141,5 +141,8 @@
     <ClCompile Include="2908상수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5622다이얼.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
