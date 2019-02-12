@@ -129,5 +129,8 @@
     <ClCompile Include="10990별찍기-15.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10991별찍기-16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
