@@ -3,50 +3,35 @@
 
 using namespace std;
 
-typedef struct Tree {
-	char color[5];
-	Tree *child;
-}Tree;
+string str;
+int i = 0;
 
-typedef struct root {
-	char color[5];
-}root;
+string change(string str) {
 
-Tree *tree;
-Tree *p;
-
-Tree* create_Tree(Tree *tree) {
-
-	char c;
-	
-	p = (Tree*)malloc(sizeof(Tree));
-	p->child = NULL;
-
-	for (int i = 0; i < 4; i++) {
-		cin >> c;
-		tree->color[i] = c;
-		if (c == 'x') {
-			tree->child = create_Tree(p);
-		}
+	if (str[i] == 'b' || str[i] == 'w') {
+		string a = "";
+		return "" + str[i++];
 	}
-	return p;
+	i++;
+	string one = change(str);
+	string two = change(str);
+	string three = change(str);
+	string four = change(str);
+	string fin = "x" + three + four + one + two;
+
+	return fin;
 }
+
 int main() {
 
 	int C;
 	cin >> C;
 
 	string str;
-
-
-	tree = (Tree*)malloc(sizeof(tree));
-	tree->child = NULL;
-	
-	char c;
-	
 	while (C--) {
-		cin >> c;
-		create_Tree(tree);
+		cin >> str;
+		cout << change(str) << "\n";
+		i = 0;
 	}
 
 	return 0;
