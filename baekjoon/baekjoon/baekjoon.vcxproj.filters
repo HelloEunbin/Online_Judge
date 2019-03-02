@@ -153,5 +153,8 @@
     <ClCompile Include="5014스타트링크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11724연결요소의개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
