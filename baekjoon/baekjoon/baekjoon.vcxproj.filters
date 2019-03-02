@@ -144,5 +144,11 @@
     <ClCompile Include="5622다이얼.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1753최단경로%28다시%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2644촌수계산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
