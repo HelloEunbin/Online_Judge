@@ -18,11 +18,11 @@ int main() {
 		}
 
 		for (int j = 2; j < t - 2; j++) {
-			if ((building[j - 2] < building[j]) && (building[j - 1] < building[j]) && (building[j + 1] < building[j]) && (building[j + 2] < building[j])) {
+			if ((building[j - 2] < building[j]) && (building[j - 1] < building[j]) && (building[j + 1] < building[j]) && (building[j + 2] < building[j])) { //양 옆 2칸까지 자기 보다 키 작은 것들만 check
 				int max1 = max(building[j - 2], building[j - 1]);
 				int max2 = max(building[j + 1], building[j + 2]);
 				max1 = max(max1, max2);
-				cnt += (building[j] - max1);
+				cnt += (building[j] - max1); //양 옆 4칸 중 가장 높은것을 자기자신에서 뺌
 			}
 		}
 		printf("#%d %d\n", i, cnt);
